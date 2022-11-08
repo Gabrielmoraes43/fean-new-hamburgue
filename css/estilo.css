@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+ font-family: 'Dancing Script', cursive;
+}
+
+.detail-box h1 {
+  font-family: 'Dancing Script', cursive;
+font-size: 53px;
+}
+
+/*header--*/
+.navbar-brand .logo {
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+   display: inline-block;
+    padding-top: 0.20rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+/*image de fundo--*/
+.bg-img {
+    min-height: 100vh;                               
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.bg-box{
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bg-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+}
+img {
+	vertical-align: middle;
+    border-style: none;
+}
+
+/*--nav--*/
+
+ul.listas {
+margin: auto;
+}
+.nav-link {
+color: white;
+text-transform: uppercase;
+text-align: center;
+}
+.nav-link:hover{
+color: orange;
+}
+
+navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.logo {
+color: white;
+font-size: 26px;
+font-family: sans-serif;
+margin-right: 2em;
+}
+
+.icon:hover{
+color: orange;
+}
+}
+/*--container do meio--*/
+
+.hamburgao{
+background: url(../images/hero-bg.jpg);
+}
+.text {
+margin-top: 47px;
+}
+.detail-box p{
+color: white;
+font-size:14px ;
+margin-top: 20px;
+}
+
+.detail-box h1{
+color: white;
+}
+/*---carousel--*/
+ol {
+position: relative;
+display: block;
+width: 120px;
+
+height: 120px;
+}
+
+.carousel-indicators {
+margin: 0;
+position: unset;
+}
+.carousel-indicators li {
+    width: 1.3rem;
+    height: 1.4rem;
+    margin: 6px;
+   
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.carousel-indicators .active {
+    width: 1.5rem;
+    height: 1.6rem;
+    margin: 6px;
+    background-color: orange;
+}
+
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.butao{
+border-radius: 20px;
+background-color: #ffbe33;
+color: white;
+
+}
+
+.butao:hover{
+background-color: orange;
+color: white;
+}
+#butao {
+border-radius: 20px;
+font-size: 18px;
+background-color: #ffbe33;
+color: white;
+padding: 10px;
+text-decoration: none;
+width: 270px;
+}
+
+#butao:hover{
+background: orange;
+}
+
+.slider_section .detail-box {
+    color: #ffffff;
+    margin-bottom: 190px;
+}
+
+.slider_section{
+	margin-top: 3rem;
+}
+.menu-pesquisa a{
+padding: 14px;
+color: white;
+align-items: center;
+}
+
+.offer-section {
+margin-bottom: 50px;
+}
+/*----section cardapio-----*/
+.promoçoes {
+    position: relative;
+    padding-top: 45px;
+}
+.promoçoes .box .img-box img{
+width: 175px;
+    min-width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all 0.1 0.5s;
+    transition: all 0.1 0.5s;
+    border-radius: 100%;
+    border: 5px solid #ffbe33;
+    overflow: hidden;
+}
+.promoçoes .box {
+  display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 45px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background-color: #222831;
+    color: #ffffff;
+}
+.menu .barra_link li{
+  padding: 7px 25px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.menu .barra_link li.active{
+ background-color: #222831;
+  color: #ffffff;
+}
+}
+.detail-box {
+padding: 20px  ;
+}
+
+.detail-box h6 span{
+font-size: 50px;
+}
+
+
+
+.barra_link{
+display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 45px 0 20px 0;
+
+}
+
+.menu ul li a{
+color: black;
+justify-content: center;
+list-style: none;
+display: flex;
+}
+
+.menu ul li a .active {
+background-color:  #222831;
+color: white;
+border-radius: 25px;
+}
+
+/*----card images-----*/
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.fit-content .box .img-box{
+background: #f1f2f3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px 10px 0 45px;
+    margin: -1px;
+    padding: 25px;
+    height: 215px;
+   
+}
+
+.fit-content .box {
+   
+position: relative;
+    margin-top: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+ 
+}
+
+
+.fit-content .box .detail-box h5 {
+color:white;
+}
+
+.fit-content .box .detail-box {
+padding: 24px;
+}
+.fit-content img{
+border-radius: none;
+border: none;
+width: 140px;
+
+}
+
+.fit-content .box .detail-box p{
+
+width: 300px;
+font-size: 15px;
+display: block;
+
+}
+.options {
+display: flex;
+margin-left: 20px;
+}
+
+.row {
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px
+}
+
+.fit-content .fa-cart-shopping {
+color: white;
+background: orange;
+width: 34px;
+padding: 7px;
+margin-bottom: 5px;
+margin-left: 210px;
+border-radius: 18px;
+}
+
+ .btn-box a {
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/*----about----*/
+.heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 120px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+}
+
+.heading_container h2 {
+    position: relative;
+    margin-bottom: 10;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.book_section .heading_container {
+    margin-bottom: 25px;
+}
+
+.form-control{
+padding: 17px;
+margin-top: 10px;
+   }
+.map{
+    width: 100%;
+    height: 325px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/*----client section----*/
+.client-show {
+width: 678px;
+display: flex;
+background:  #222831;
+}
+
+.client_section h2{
+    margin-left: 370px;
+}
+
+.client_section .detail-box {
+color: white;
+}
+.item .box-img {
+border-radius: 70px;
+margin-top: 15px;
+border: 4px solid yellow;
+width: 100px;
+}
+.item{
+
+margin-left: 30px;
+}
+
+.item .detail-box {
+background:#222831 ;
+padding: 15px;
+margin-top: 12px;
+border-radius: 10px;
+}
+
+/*----footer----*/
+footer {
+background:  #222831;
+margin-top: 20px;
+padding: 40px;
+
+}
+.footer_contact h4 {
+color: white;
+font-family: 'Dancing Script', cursive;
+font-size: 2em;
+}
+
+.footer_detail  a {
+color: white;
+font-family: 'Dancing Script', cursive;
+font-size: 2em;
+
+}
+
+.footer_detail  p {
+color: #dbdbdb;
+}
+.contact_link_box a{
+color: #dbdbdb;
+padding: 8px;
+flex-direction: column;
+display: block;
+}
+
+.rede-sociais {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 20px;
+
+}
+
+.rede-sociais  a {
+color: white;
+
+}
+
+.cotidiano h4 {
+font-family: 'Dancing Script', cursive;
+font-weight: 600px;
+color: white;
+}
+
+.cotidiano p {
+color: #dbdbdb;
+margin-left: 35px;
+}
+
+.box .img-box:hover {
+  transform: scale(1.4);
+
+}
+
+.box .img-box:hover {
+  transition: transform 0.2s;
+
+}
